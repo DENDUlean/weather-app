@@ -8,6 +8,7 @@ function App() {
 
   const units = 'metric';
   const lang = 'cz';
+  //api_key je zde schován
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&lang=${lang}&appid=${api_key}`;
 
